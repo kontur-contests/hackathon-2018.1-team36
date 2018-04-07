@@ -11,5 +11,16 @@ console.log(game);
 tank.setFire(1);
 
 game.update(1);
+game.update(1);
+game.update(1);
+game.update(1);
+game.update(1);
+game.update(1);
+game.update(1);
+game.update(1);
+game.update(1);
+game.update(1);
+game.update(1);
+game.update(1);
 
 console.log(game);
