@@ -18,10 +18,14 @@ function log(game) {
     console.log(JSON.stringify(state.tanks, null, 2));
 }
 
+log(game);
+
 tank.setLeftTrackMoving(1);
 tank.setFire(1);
 
-for (let i = 0; i < 10; i++) {
+log(game);
+
+for (let i = 0; i < 2; i++) {
     game.update(1);
     log(game);
 }
