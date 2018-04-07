@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/skbkontur/hackathon-2018.1-team36/issues"
   },
-  "homepage": "https://github.com/skbkontur/hackathon-2018.1-team36#readme"
+  "homepage": "https://github.com/skbkontur/hackathon-2018.1-team36#readme",
+  "dependencies": {
+    "deepcopy": "^0.6.3",
+    "random-item": "^1.0.0"
+  }
 }
