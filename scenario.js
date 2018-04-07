@@ -22,6 +22,7 @@ tank.setLeftTrackMoving(1);
 tank.setFire(1);
 
 for (let i = 0; i < 100; i++) {
+    console.log(i);
     game.update(1);
     log(game);
 }
