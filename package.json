@@ -4,7 +4,8 @@
   "description": "",
   "main": "entry.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/net/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,12 @@
   "homepage": "https://github.com/skbkontur/hackathon-2018.1-team36#readme",
   "dependencies": {
     "deepcopy": "^0.6.3",
-    "random-item": "^1.0.0"
+    "random-item": "^1.0.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "socket.io": "^1.7.2",
+    "hashmap": "^2.0.6",
+    "javascript-state-machine": "^3.0.1"
   }
 }
