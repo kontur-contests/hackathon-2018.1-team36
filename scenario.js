@@ -15,14 +15,13 @@ function log(game) {
     // console.log(state.bullets.map(b => (b.is_expired())));
     console.log('==================================================================');
     // console.log(JSON.stringify(state.bullets, null, 2));
-    console.log(JSON.stringify(state.tanks[0].position, null, 2));
+    console.log(JSON.stringify(state.bullets, null, 2));
 }
 
 tank.setLeftTrackMoving(1);
 tank.setFire(1);
 
 for (let i = 0; i < 100; i++) {
-    console.log(i);
     game.update(1);
     log(game);
 }
